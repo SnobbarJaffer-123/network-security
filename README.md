@@ -1,11 +1,11 @@
 # P2p secure chat communication
-
-1.User registration and authentication.
+<pre>
+<h3>1.User registration and authentication.
 2.RSA key generation for message signing and verification.
 3.SQLite database for storing user credentials.
 4.Peer-to-peer chat functionality.
 
-#Exicuting the process
+<h2>#Exicuting the process</h2>
 a.Installation of Necessary Libraries
   1.Standard Libraries:socket, threading, sqlite3, and hashlib
   2.Third-Party Libraries:cryptography
@@ -16,5 +16,5 @@ e.Start the Chat Application:Start two instances of your chat application. One w
      example
     .In the first terminal, run:python chatApp.py 12345
     .In the secondt terminal,run:python chatApp.py 12346 127.0.0.1 12345
-
-    
+</h3>
+    </pre>
